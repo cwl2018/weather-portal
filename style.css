@@ -1,0 +1,115 @@
+body {
+  width: 900px;
+}
+
+select {
+  color: blue;
+  background-color: lightgray;
+}
+
+button {
+  color: darkgreen;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+#warningput {
+  background-color: red;
+}
+
+#title {
+  background-color: brown;
+  color: blue;
+}
+
+#mylocationfonts {
+  font-size: 36px;
+}
+
+.header {
+  height: 300px;
+  width: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+
+#headerput2 {
+  text-align: center;
+}
+
+#header {
+  background-image: url(images/blue-sky.jpg);
+}
+
+#headerrain {
+  background-image: url(images/water-drops-glass-day.jpg);
+}
+
+#headernight {
+  background-image: url(images/night-sky.jpg);
+}
+
+#headernightrain {
+  background-image: url(images/water-drops-glass-night.jpg);
+}
+
+.mydata {
+  height: 200px;
+  width: 750px;
+  margin: 10px;
+}
+
+#locationput {
+  text-align: center;
+}
+
+#locationput2 {
+  text-align: center;
+}
+
+.location {
+  height: 200px;
+  width: 500px;
+  background-color: green;
+  float: left;
+}
+
+.temperatures {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  float: right;
+}
+
+.forecasticon {
+  height: 75px;
+  width: 75px;
+}
+
+.forecast {
+  height: 200px;
+  width: 750px;
+  background-color: mediumpurple;
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    transform-origin: top left;
+    transform: scale(0.6, 0.6);
+  }
+}
+
+@media (pointer:none), (pointer:coarse) {
+  div {
+    width: 1000px;
+    clear: both;
+  }
+}
